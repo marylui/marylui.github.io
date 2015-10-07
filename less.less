@@ -1,10 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Asap:400,700);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 @import 'full-clndr.less';
 @import 'mini-clndr.less';
 @import 'clndr-3.less';
 @import 'clndr-4.less';
+
+
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 body
 {
@@ -45,16 +54,6 @@ a
     color: #212121;
   }
 }
-
-
-*
-{
-  margin: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
 
 span.code
 {
@@ -114,8 +113,8 @@ strong
 // some colors
 
 @red: #ff5a45;
-@blue: #002D64;
-@dark-blue: #002D64;
+@blue: #71bbd2;
+@dark-blue: #3883a3;
 @dark-green:  #69a776;
 @light-green: #97ce7f;
 @dark-gray: #414141;
@@ -215,6 +214,11 @@ strong
     {
       display: none;
     }
+  }
+
+  h1.banner-text
+  {
+    font-size: 28px;
   }
 
   .banner-text.below
